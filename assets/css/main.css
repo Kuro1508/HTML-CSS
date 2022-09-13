@@ -12,10 +12,13 @@
 .header__navbar-list {
     list-style: none;
     padding-left: 0;
+
 }
 
 .header__navbar-item {
     padding: 0 8px;
+    min-height: 26px;
+    
 }
 
 .header__navbar-item-left {
@@ -35,5 +38,86 @@
     font-size: 1.4rem;
     color: var(--white-color);
     font-weight: 300;
+    position: relative;
     
+}
+
+
+.header__navbar-item,
+.header__navbar-item-left,
+.header__navbar-item-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header__navbar-item:hover,
+.header__navbar-item-left:hover,
+.header__navbar-item-link:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-icon-link {
+    color: var(--white-color);
+    text-decoration: none;
+    
+}
+
+.navbar-icon-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-icon {
+    font-size: 1.8rem;
+    margin: 0 8px;
+}
+
+.navbar-no-pointer {
+    cursor: text;
+    color: var(--white-color);
+}
+
+/* header qr */
+.navbar__qr{
+    background: var(--white-color);
+    width: 186px;
+    position: absolute;
+    left: 0;
+    top: 150%;
+    padding: 8px;
+    border-radius: 2px;
+    display: none;
+    animation: fadeIn ease-in .4s;
+}
+
+.navbar__qr::before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    top:-12px;
+}
+
+.header__navbar-item-qr:hover .navbar__qr{
+    display: block;
+}
+
+.navbar__qr-img-qr{
+    width: 100%;
+}
+
+.navbar__qr-app {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.navbar__qr-app-link {
+    
+}
+
+.navbar__qr-download {
+    height: 16px;
 }
