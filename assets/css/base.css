@@ -5,8 +5,10 @@
     --primary-color: #ee4d2d;
     --border-color: #dbdbdb;
     --star-gold-color: #FFCE3E;
-    --growth-from:0.7;
-    --growth-to:1;
+
+    --header-height: 120px;
+    --navbar-height: 24px;
+    --header-with-search: calc(var(--header-height) - var(--navbar-height) );
 }
 
 *{
