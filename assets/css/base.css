@@ -113,14 +113,16 @@ html {
     padding: 0;
     outline: none;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white-color);
+    font-size: 1.5rem;
 }
 
-.btn:hover {
+/* .btn:hover {
     background-color: rgba(0, 0, 0,  .07);
-}
+} */
 
 .btn.btn--primary {
     color: var(--white-color);

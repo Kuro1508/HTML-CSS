@@ -279,7 +279,7 @@
 
         <div class="container">
             <div class="grid">
-                <div class="grid__row">
+                <div class="grid__row  app__content">
                     <div class="grid__column-2">
                         <div class="category">
                             <h3 class="category-heading">
@@ -307,7 +307,37 @@
                     </div>
     
                     <div class="grid__column-10">
-    
+                        <div class="product-list">
+                            <div class="product-list__header">
+                                <span class="product-list__header-label">Sắp xếp theo</span>
+                                <button class="product-list__header-btn btn">Phổ biến</button>
+                                <button class="product-list__header-btn btn">Mới nhất</button>
+                                <button class="product-list__header-btn btn btn--primary">Bán chạy</button>
+
+                                <div class="product-list__header-select">
+                                    <span class="select__price-label">Giá</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                    <div class="select__price-option">
+                                        <a href="#" class="select__price-option-link">Giá: Cao đến thấp</a>
+                                        <a href="#" class="select__price-option-link">Giá: Thấp đến cao</a>
+                                    </div>
+                                </div>
+                                <div class="product-list__header-page">
+                                    <span class="page-num">
+                                        <span class="page-num-current">1</span>
+                                        /14
+                                    </span>
+                                    <div class="product-list__header-page-control">
+                                        <a href="#" class="product-list__header-page-btn">
+                                            <i class="header-page-icon disabled fa-solid fa-chevron-left"></i>
+                                        </a>
+                                        <a href="#" class=" product-list__header-page-btn">
+                                            <i class="header-page-icon fa-solid fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
