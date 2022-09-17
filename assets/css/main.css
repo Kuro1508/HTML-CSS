@@ -793,7 +793,7 @@
 .haeder__cart-list-item {
     padding-left: 0;
     list-style: none;
-    height: 50vh;
+    height: 30vh;
     overflow-y:auto;
 }
 
@@ -1321,4 +1321,84 @@ i.action__like-icon-active {
     font-weight: 600;
     font-size: 1.3rem;
     line-height: 1.4rem;
+}
+
+/* Pagination */
+.product-pagination {
+    margin: 48px 0 32px 0;
+}
+
+/* Footer */
+.footer {
+    border-top: 4px solid var(--primary-color) ;
+    padding-top: 16px;
+}
+
+.footer__heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.foote__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer__list-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 5px 0;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.footer__list-link:hover {
+    color: var(--primary-color);
+}
+
+.footer__list-icon {
+    font-size: 1.8rem;
+    margin: -1px 8px 0 0;
+} 
+
+.footer__dowload {
+    display: flex;
+}
+
+.footer__dowload-qr {
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--border-color);
+}
+
+.footer__dowload-apps {
+    flex: 1;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__dowload-apps-link {
+    text-decoration: none;
+    color: transparent;
+}
+
+.footer__dowload-apps-icon {
+    height: 30px;
+}
+
+.footer__bottom {
+    background-color: #ccc;
+    padding: 12px 0;
+    margin-top: 20px;
+}
+
+.footer__end {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
 }
